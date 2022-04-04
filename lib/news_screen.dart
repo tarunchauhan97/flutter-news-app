@@ -16,6 +16,7 @@ class ReadingNews extends StatelessWidget {
         body: Container(
           height: size.height,
           width: size.width,
+          color: Colors.grey.shade600,
           child: SingleChildScrollView(
             child: Column(
               children: [

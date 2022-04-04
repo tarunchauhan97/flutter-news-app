@@ -37,7 +37,8 @@ class _HomeScreenState extends State<HomeScreen> {
 
     return SafeArea(
       child: Scaffold(
-        backgroundColor: getColors[1],
+        //backgroundColor: getColors[1],
+        backgroundColor: Colors.blueGrey,
         body: Container(
           height: size.height,
           width: size.width,
@@ -103,8 +104,11 @@ class _HomeScreenState extends State<HomeScreen> {
         child: Container(
           padding: EdgeInsets.only(bottom: 10),
           width: size.width / 1.15,
+
           decoration: BoxDecoration(
-            border: Border.all(width: 1, color: Colors.black),
+            //border: Border.all(width: 1, color: Colors.black),
+            borderRadius: BorderRadius.circular(20),
+            color: Colors.grey,
           ),
           child: Column(
             children: [
